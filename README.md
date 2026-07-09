@@ -1,27 +1,54 @@
 # 📈 Stock Analyzer
 
-A Java-based Stock Market Analyzer that retrieves live stock data from the Yahoo Finance API and performs Exponential Moving Average (EMA) analysis to identify market trends and generate buy/sell signals.
+A Java-based Stock Market Analyzer that fetches real-time NSE stock data from Yahoo Finance, calculates Exponential Moving Averages (EMA), and generates Buy, Sell, or Hold recommendations through an interactive web interface.
+
+---
+
+## 📸 Project Preview
+
+### Home Screen
+
+![Home Screen](screenshots/home-screen.png)
+
+### Stock Analysis
+
+![Stock Analysis](screenshots/stock-analysis-tcs.png)
 
 ---
 
 ## 🚀 Features
 
-- Live stock market data retrieval
-- Current Price, Daily High & Daily Low
-- Exponential Moving Average (EMA) calculation
-- Buy/Sell signal generation
-- Native Java HTTP requests
-- Regex-based ticker symbol parsing
-- Lightweight, dependency-free architecture
+- 📊 Real-time NSE stock market analysis
+- 📈 Interactive candlestick chart
+- ⚡ EMA (9 & EMA 15) crossover strategy
+- 🟢 Buy / 🔴 Sell / 🟡 Hold recommendation
+- 💹 Live market price, daily high & low
+- 🌐 Yahoo Finance API integration
+- ⚙️ Java HTTP Server backend
+- 🎨 Responsive HTML, CSS & JavaScript frontend
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- Java
+### Backend
+- Java 17
+- Java HTTP Server
+- Maven
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### APIs
 - Yahoo Finance API
-- HTTP Client
-- Regular Expressions (Regex)
+
+### Concepts Used
+- Exponential Moving Average (EMA)
+- Candlestick Charts
+- Technical Analysis
+- REST API Communication
 - Object-Oriented Programming (OOP)
 
 ---
@@ -32,23 +59,66 @@ A Java-based Stock Market Analyzer that retrieves live stock data from the Yahoo
 Stock-Analyzer/
 │
 ├── src/
-├── assets/
+│   ├── main/
+│   └── test/
+│
 ├── screenshots/
-├── README.md
-└── LICENSE
+│
+├── docs/
+│
+├── assets/
+│
+├── pom.xml
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## 🚀 Future Improvements
+## ▶️ How to Run
 
-- 🤖 Automated Trading Execution with broker API integration (e.g., Zerodha Kite, Alpaca, Interactive Brokers)
-- 📊 Portfolio Management Dashboard with real-time profit/loss tracking
-- ⭐ Personalized Stock Watchlist with price alerts
-- 📈 Advanced Technical Indicators (RSI, MACD, Bollinger Bands)
-- 📉 Historical Price Charts and Performance Analytics
-- 🔔 Email & Push Notifications for Buy/Sell Signals
-- ☁️ Cloud Deployment with AWS for 24×7 market monitoring
+### Clone the Repository
+
+```bash
+git clone https://github.com/Kanishk-krnwt/Stock-Analyzer.git
+```
+
+### Open the Project
+
+Open the project in VS Code or IntelliJ IDEA.
+
+### Install Dependencies
+
+```bash
+mvn clean install
+```
+
+### Run the Backend
+
+```bash
+mvn exec:java
+```
+
+### Open the Frontend
+
+Open:
+
+```
+src/main/java/com/stockanalyzer/index.html
+```
+
+in your browser.
+
+---
+
+## 📊 Future Improvements
+
+- 🤖 Automated Trading using Broker APIs
+- 💼 Portfolio Management Dashboard
+- ⭐ Stock Watchlist
+- 🔔 Price Alerts & Notifications
+- ☁️ AWS Cloud Deployment
+- 📱 Mobile Responsive Dashboard
 
 ---
 
@@ -57,3 +127,5 @@ Stock-Analyzer/
 **Kanishk Karnawat**
 
 Cloud Computing Engineer | AI Engineer | Java Developer
+
+GitHub: https://github.com/Kanishk-krnwt
