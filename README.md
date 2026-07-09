@@ -12,7 +12,7 @@ A Java-based Stock Market Analyzer that fetches real-time NSE stock data from Ya
 
 ### Stock Analysis
 
-![Stock Analysis](screenshots/stock-analysis-tcs.png)
+![Stock Analysis](screenshots/stock-analysis.png)
 
 ---
 
