@@ -57,7 +57,3 @@ Stock-Analyzer/
 **Kanishk Karnawat**
 
 Cloud Computing Engineer | AI Engineer | Java Developer
-
-**Kanishk Karnawat**
-
-Cloud Computing Engineer | AI Engineer | Java Developer
